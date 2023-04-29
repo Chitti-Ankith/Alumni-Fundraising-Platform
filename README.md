@@ -1,7 +1,24 @@
-# mern-auth
+# Alumni Fundraising Platform
 
-![Final App](https://i.postimg.cc/tybZb8dL/final-MERNAuth.gif)
-Minimal full-stack MERN app with authentication using passport and JWTs.
+Tech Clubs and Students who are working on technical projects often lack sufficient funding to
+carry out their plans. The government isn’t coming to the aid of private colleges anytime soon.
+However, Alumni who want to contribute to their Alma Mater might come to the rescue.
+We intended to create a Web application that will allow Bits Pilani students to obtain funding for their
+projects from Alumni.
+Functionality:
+● The Students can put up their project ideas for the perusal of the Alumni after having
+consulted with Professors regarding their feasibility.
+● Each project will have a detailed description, proposed plan of work, timeline of work and
+stretch goals. The students can update the page with the current progress of the project.
+● Profile of all the alumni will be maintained along with the history of their respective
+contributions.
+● Depending on the amount of money a particular alum has donated, their names will
+appear on the list of top donors for the respective project. Over time, particularly
+generous donors might be rewarded with tokens of appreciation.(For example, The
+product incorporating some identifier relating to the Alum/ Stocks in case of venture etc.)
+● The payment system will be a convincing placebo for security reasons.
+
+Implemented a Full-stack MERN app with authentication using passport and JWTs.
 
 This project uses the following technologies:
 
@@ -9,23 +26,6 @@ This project uses the following technologies:
 - [Express](http://expressjs.com/) and [Node](https://nodejs.org/en/) for the backend
 - [MongoDB](https://www.mongodb.com/) for the database
 - [Redux](https://redux.js.org/basics/usagewithreact) for state management between React components
-
-## Medium Series
-
-- [Build a Login/Auth App with the MERN Stack — Part 1 (Backend)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-1-c405048e3669)
-- [Build a Login/Auth App with the MERN Stack — Part 2 (Frontend & Redux Setup)](https://blog.bitsrc.io/build-a-login-auth-app-with-mern-stack-part-2-frontend-6eac4e38ee82)
-- [Build a Login/Auth App with the MERN Stack — Part 3 (Linking Redux with React Components)](https://blog.bitsrc.io/build-a-login-auth-app-with-the-mern-stack-part-3-react-components-88190f8db718)
-
-## Configuration
-
-Make sure to add your own `MONGOURI` from your [mLab](http://mlab.com) database in `config/keys.js`.
-
-```javascript
-module.exports = {
-  mongoURI: "YOUR_MONGO_URI_HERE",
-  secretOrKey: "secret"
-};
-```
 
 ## Quick Start
 
