@@ -5,18 +5,20 @@ carry out their plans. The government isn’t coming to the aid of private colle
 However, Alumni who want to contribute to their Alma Mater might come to the rescue.
 We intended to create a Web application that will allow Bits Pilani students to obtain funding for their
 projects from Alumni.
+
 Functionality:
-● The Students can put up their project ideas for the perusal of the Alumni after having
+
+1) The Students can put up their project ideas for the perusal of the Alumni after having
 consulted with Professors regarding their feasibility.
-● Each project will have a detailed description, proposed plan of work, timeline of work and
+2) Each project will have a detailed description, proposed plan of work, timeline of work and
 stretch goals. The students can update the page with the current progress of the project.
-● Profile of all the alumni will be maintained along with the history of their respective
+3) Profile of all the alumni will be maintained along with the history of their respective
 contributions.
-● Depending on the amount of money a particular alum has donated, their names will
+4) Depending on the amount of money a particular alum has donated, their names will
 appear on the list of top donors for the respective project. Over time, particularly
 generous donors might be rewarded with tokens of appreciation.(For example, The
 product incorporating some identifier relating to the Alum/ Stocks in case of venture etc.)
-● The payment system will be a convincing placebo for security reasons.
+5) The payment system will be a convincing placebo for security reasons.
 
 Implemented a Full-stack MERN app with authentication using passport and JWTs.
 
